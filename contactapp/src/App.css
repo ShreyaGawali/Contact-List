@@ -1,0 +1,67 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Set a more readable font for the entire page */
+}
+
+.header {
+  background-color: rgb(9, 204, 204);
+  text-align: center;
+  color: white; 
+  border: 2px solid white; 
+  padding: 10px; 
+  font-size: 1.5em; 
+}
+
+.formhead {
+  padding-left: 5%;
+  margin-left: 12px;
+}
+
+.container {
+  border: 1px solid rgb(9, 204, 204); /* Match border color with header background */
+  padding: 2%;
+  margin: 20px auto; /* Center the container and provide more margin */
+  max-width: 800px; /* Limit maximum width for better readability */
+}
+
+.btn {
+  width: 120px; /* Slightly increase button width */
+  height: 40px; /* Increase button height for better clickability */
+  font-size: 18px; /* Slightly increase font size */
+  margin-top: 4%;
+  color: white;
+  background-color: rgb(81, 171, 235); /* Adjust button color */
+  border: none; /* Remove border for a cleaner look */
+  cursor: pointer; /* Add pointer cursor for better user feedback */
+}
+
+.list {
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 150px;
+  height: 30px;
+  line-height: 30px; /* Vertically center text in the list */
+  text-align: center; /* Center text in the list horizontally */
+  background-color: rgb(113, 211, 141); /* Adjust list color */
+  border-radius: 5px; /* Add some border-radius for a softer look */
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around; /* Change to space-around for more even spacing */
+  align-items: center; /* Vertically center items */
+  border: 2px solid rgb(9, 204, 204);
+  background-color: rgb(247, 243, 239);
+  margin-bottom: 20px; /* Increase margin for better separation */
+  margin-top: 20px;
+  max-width: 1000px;
+  padding: 20px; /* Add padding for better spacing */
+}
